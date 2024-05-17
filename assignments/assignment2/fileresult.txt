@@ -1,0 +1,7 @@
+furhad@furhad-acer:/projects/coursera/linux_system_programming/assignment-2-furhadjidda/finder-app$ make CROSS_COMPILE=aarch64-none-linux-gnu-
+aarch64-none-linux-gnu-gcc -Wall -Wextra -O2 -c writer.c -o writer.o
+aarch64-none-linux-gnu-gcc -Wall -Wextra -O2 ./writer.o -o writer 
+
+
+furhad@furhad-acer:/projects/coursera/linux_system_programming/assignment-2-furhadjidda/finder-app$ file writer
+writer: ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, for GNU/Linux 3.7.0, with debug_info, not stripped
