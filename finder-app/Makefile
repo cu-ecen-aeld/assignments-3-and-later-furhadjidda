@@ -37,7 +37,7 @@ $(OBJDIR)/%.o: $(SRCDIR)/%.c
 # Clean target
 .PHONY: clean
 clean:
-	rm -rf $(OBJDIR) $(BINDIR)/$(TARGET)
+	rm -rf $(TARGET)
 
 # Dependencies (optional)
 # You can add dependencies generation here if needed
